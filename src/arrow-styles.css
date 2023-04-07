@@ -1,0 +1,47 @@
+
+svg path, svg polyline {
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+path {
+    opacity: 0;
+    animation: stroke .9s .35s forwards;
+    animation-timing-function: cubic-bezier(1,.1,.8,1);
+}
+svg {
+    margin: 5em;
+}
+@keyframes stroke {
+    100% {
+        opacity: 1;
+        stroke-dashoffset: 0;
+    }
+}
+body {
+    background: black;
+}
+polyline {
+    opacity: 0;
+    animation: arrows .7s infinite, arrow_intro 2.25s forwards;
+}
+polyline + polyline {
+    animation-delay: .1s;
+}
+@keyframes arrow_intro {
+    0%, 50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes arrows {
+    0%, 100% {
+        transform: translate3d(0,0,0);
+    }
+    50% {
+        transform: translate3d(0,-2px,0);
+    }
+}
