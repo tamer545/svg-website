@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Backpack from './picture/backpack.png'
-import './App.css'
 
 
 function BackpackCard() {

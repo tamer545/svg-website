@@ -1,29 +1,18 @@
-import React, {useEffect, useRef} from 'react';
-// @ts-ignore
+import React from 'react';
 import './App.css';
-import {Container, Image} from 'react-bootstrap';
-import SVGAccordion from "./SVGAccordion";
-// @ts-ignore
-import pack from "./picture/backpack.png";
-
-// @ts-ignore
-import pack2 from "./picture/backpack.jpg";
-// @ts-ignore
-import bouncer from "./picture/bouncingpack.svg";
-// @ts-ignore
+import {Image} from 'react-bootstrap';
 import alarm from "./pre-made-svgs/alarm-better.svg";
-// @ts-ignore
-import scroll from "./picture/arrow.svg";
 
-// @ts-ignore
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
-// @ts-ignore
+//@ts-ignore
 import styles from './styles.module.css'
 import BouncingPack from "./animated-svgs/BouncingPack";
 import Arrow from "./Arrow";
 import BackpackCard from "./BackpackCard";
 import BackpackQuote from "./BackpackQuote";
 import Runners from "./animated-svgs/Runners";
+import PricingTable from "./PricingTable";
+import SourcesGroup from "./SourcesGroup";
 
 
 function App() {
@@ -44,8 +33,7 @@ function App() {
                         </span>
                         <br/>
                         <span id="smaller-title">
-                            A backpack with a built-in alarm system that alerts the owner when
-                        someone tries to open or steal it.
+                           "Behold! A backpack fortified with an impregnable shield, fortified by a sophisticated anti-theft mechanism that emits sonorous alarms to deter nefarious felons from laying hands on your precious belongings."
                         </span>
                         <br/>
                         <Image src={alarm} width={'200px'}></Image>
@@ -62,19 +50,29 @@ function App() {
                     <BouncingPack/>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={1} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
+            <ParallaxLayer offset={0.8} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
                 <div className={`${styles.card} ${styles.parallax}`}>
                     <BackpackCard/>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={1.7} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
+            <ParallaxLayer offset={1.5} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
                 <div className={`${styles.card} ${styles.parallax}`}>
                     <BackpackQuote/>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={2.2} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
-                <div className={`${styles.card} ${styles.parallax} ${styles.purple}`}>
+            <ParallaxLayer offset={1.9} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
+                <div className={`${styles.card} ${styles.parallax}`}>
+                    <PricingTable/>
+                </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={2.1} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
+                <div className={styles.card}>
                     <Runners/>
+                </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={3} speed={1}>
+                <div className={styles.card}>
+                    <SourcesGroup/>
                 </div>
             </ParallaxLayer>
         </Parallax>

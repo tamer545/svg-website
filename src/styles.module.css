@@ -26,10 +26,6 @@
     margin-right: 15%;
 }
 
-.purple {
-    background-color: #FFFFFF;
-}
-
 @media (max-width: 750px) {
     .card {
         width: 40%;

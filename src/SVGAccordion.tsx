@@ -1,5 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
-import SVGCarousel from "./SVGCarousel";
+import SourcesGroup from "./SourcesGroup";
 import React from "react";
 
 function AllCollapseExample() {
@@ -9,7 +9,7 @@ function AllCollapseExample() {
                 <Accordion.Header>Accordion Item #1</Accordion.Header>
                 <Accordion.Body>
                     <br/>
-                    <SVGCarousel/>
+                    <SourcesGroup/>
                     <br/>
                 </Accordion.Body>
             </Accordion.Item>
