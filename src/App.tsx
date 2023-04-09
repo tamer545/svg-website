@@ -57,11 +57,11 @@ function App() {
             </ParallaxLayer>
             <ParallaxLayer offset={1.5} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
                 <div className={`${styles.card} ${styles.parallax}`}>
-                    <BackpackQuote/>
+                    <BackpackQuote quote={"I recently bought the alarm backpack and I'm very satisfied with my purchase. The alarm is loud and effective, giving me peace of mind when I'm on the go."} name={"Mark"}/>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={1.9} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
-                <div className={`${styles.card} ${styles.parallax}`}>
+            <ParallaxLayer sticky={{start: 1.6, end: 2}} style={{...alignCenter, justifyContent: 'flex-start'}}>
+                <div className={`${styles.card} ${styles.sticky}`}>
                     <PricingTable/>
                 </div>
             </ParallaxLayer>
@@ -70,11 +70,17 @@ function App() {
                     <Runners/>
                 </div>
             </ParallaxLayer>
+            <ParallaxLayer offset={2.5} speed={1} style={{...alignCenter, justifyContent: 'flex-end'}}>
+                <div className={`${styles.card} ${styles.parallax}`}>
+                    <BackpackQuote quote={"My backpack with a built-in alarm system thwarted a theft attempt, and the police were there in no time. I highly recommend it for anyone on the go!"} name={"John"}/>
+                </div>
+            </ParallaxLayer>
             <ParallaxLayer offset={3} speed={1}>
                 <div className={styles.card}>
                     <SourcesGroup/>
                 </div>
             </ParallaxLayer>
+
         </Parallax>
     );
 }

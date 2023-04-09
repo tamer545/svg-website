@@ -10,10 +10,13 @@ function SourcesGroup() {
                     Common Components (React Bootstrap Default Page)
                 </ListGroup.Item>
                 <ListGroup.Item action href="https://codemyui.com/parallax-pixel-stars-using-pure-css/">
-                    Stars Background
+                    Stars Background (CodeMyui)
                 </ListGroup.Item>
                 <ListGroup.Item action href="https://www.svgrepo.com/">
-                    Pre-made SVGs
+                    Pre-made SVGs (SVGRepo)
+                </ListGroup.Item>
+                <ListGroup.Item action href="https://chat.openai.com/chat">
+                    Texts (ChatGPT)
                 </ListGroup.Item>
             </ListGroup>
         );

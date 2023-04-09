@@ -8,7 +8,7 @@ function BackpackCard() {
         <Card style={{width: '25rem'}}>
             <Card.Img variant="top" src={Backpack}/>
             <Card.Body>
-                <Card.Title id={"colorizedTitle"}>Card Title</Card.Title>
+                <Card.Title id={"colorizedTitle"}>The Backpack</Card.Title>
                 <Card.Text>
                     A backpack is an essential accessory for anyone on the go. However, leaving your backpack unattended
                     and open can put your belongings at risk of theft. That's where the new type of backpack comes in,
