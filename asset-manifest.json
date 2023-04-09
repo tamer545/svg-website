@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff45482a.css",
-    "main.js": "/static/js/main.2d665956.js",
-    "static/js/787.5428cce3.chunk.js": "/static/js/787.5428cce3.chunk.js",
-    "static/media/backpack.png": "/static/media/backpack.0bd2eca0d3d9914d9f27.png",
-    "static/media/hiker-walk-svgrepo-com.svg": "/static/media/hiker-walk-svgrepo-com.54143a496b1ee913ef2ab7076a7a803b.svg",
-    "static/media/police-car-7-svgrepo-com.svg": "/static/media/police-car-7-svgrepo-com.66a33516f0cb923581f788e6f9eda82f.svg",
-    "static/media/alarm-better.svg": "/static/media/alarm-better.7befd14b3014b78cba9de93555cefe96.svg",
-    "static/media/bbj.svg": "/static/media/bbj.bdd7aa4585e0be9841e7c108344823a2.svg",
-    "static/media/robber-svgrepo-com.svg": "/static/media/robber-svgrepo-com.53479dae405d5f58914cdd5d37a015a5.svg",
-    "index.html": "/index.html",
-    "main.ff45482a.css.map": "/static/css/main.ff45482a.css.map",
-    "main.2d665956.js.map": "/static/js/main.2d665956.js.map",
-    "787.5428cce3.chunk.js.map": "/static/js/787.5428cce3.chunk.js.map"
+    "main.css": "/svg-website/static/css/main.ff45482a.css",
+    "main.js": "/svg-website/static/js/main.f174ddf6.js",
+    "static/js/787.5428cce3.chunk.js": "/svg-website/static/js/787.5428cce3.chunk.js",
+    "static/media/backpack.png": "/svg-website/static/media/backpack.0bd2eca0d3d9914d9f27.png",
+    "static/media/hiker-walk-svgrepo-com.svg": "/svg-website/static/media/hiker-walk-svgrepo-com.54143a496b1ee913ef2ab7076a7a803b.svg",
+    "static/media/police-car-7-svgrepo-com.svg": "/svg-website/static/media/police-car-7-svgrepo-com.66a33516f0cb923581f788e6f9eda82f.svg",
+    "static/media/alarm-better.svg": "/svg-website/static/media/alarm-better.7befd14b3014b78cba9de93555cefe96.svg",
+    "static/media/bbj.svg": "/svg-website/static/media/bbj.bdd7aa4585e0be9841e7c108344823a2.svg",
+    "static/media/robber-svgrepo-com.svg": "/svg-website/static/media/robber-svgrepo-com.53479dae405d5f58914cdd5d37a015a5.svg",
+    "index.html": "/svg-website/index.html",
+    "main.ff45482a.css.map": "/svg-website/static/css/main.ff45482a.css.map",
+    "main.f174ddf6.js.map": "/svg-website/static/js/main.f174ddf6.js.map",
+    "787.5428cce3.chunk.js.map": "/svg-website/static/js/787.5428cce3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff45482a.css",
-    "static/js/main.2d665956.js"
+    "static/js/main.f174ddf6.js"
   ]
 }
