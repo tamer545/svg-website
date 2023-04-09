@@ -18,6 +18,9 @@ function SourcesGroup() {
                 <ListGroup.Item action href="https://chat.openai.com/chat">
                     Texts (ChatGPT)
                 </ListGroup.Item>
+                <ListGroup.Item action href="https://stablediffusionweb.com/#demo">
+                    Images (StableDiffusion)
+                </ListGroup.Item>
             </ListGroup>
         );
 }
