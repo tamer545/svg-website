@@ -1,7 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Backpack from './picture/backpack.png'
 
-
 function BackpackCard() {
     return (
         <Card style={{width: '25rem'}}>
