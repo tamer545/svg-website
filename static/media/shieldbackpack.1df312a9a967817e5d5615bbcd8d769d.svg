@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Schildform -->
+    <path d="M50 60 Q100 30 150 60 L150 130 Q100 170 50 130 Z" fill="#ADD8E6" />
+    <!-- Schildumriss -->
+    <path d="M50 60 Q100 30 150 60 L150 130 Q100 170 50 130 Z" fill="none" stroke="#1E90FF" stroke-width="4" />
+    <!-- Rucksackkörper -->
+    <rect x="65" y="70" width="70" height="70" rx="10" ry="10" fill="#6B8E23" />
+    <!-- Rucksackklappe -->
+    <rect x="65" y="70" width="70" height="15" rx="10" ry="2" fill="#556B2F" />
+    <!-- Rucksackgürtel -->
+    <path d="M65 85 Q85 120 65 135" fill="none" stroke="#556B2F" stroke-width="6" />
+    <path d="M135 85 Q115 120 135 135" fill="none" stroke="#556B2F" stroke-width="6" />
+    <!-- Rucksacktasche -->
+    <rect x="80" y="85" width="40" height="25" rx="5" ry="5" fill="#9ACD32" />
+</svg>
