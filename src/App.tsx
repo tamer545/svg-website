@@ -13,6 +13,7 @@ import BackpackQuote from "./BackpackQuote";
 import Runners from "./animated-svgs/Runners";
 import PricingTable from "./PricingTable";
 import SourcesGroup from "./SourcesGroup";
+import shieldBackpack from "./animated-svgs/shieldbackpack.svg";
 
 
 function App() {
@@ -75,12 +76,16 @@ function App() {
                     <BackpackQuote quote={"My backpack with a built-in alarm system thwarted a theft attempt, and the police were there in no time. I highly recommend it for anyone on the go!"} name={"John"}/>
                 </div>
             </ParallaxLayer>
+            <ParallaxLayer sticky={{start: 2.5, end: 2.9}} style={{...alignCenter, justifyContent: 'flex-start'}}>
+                <div className={`${styles.card} ${styles.sticky}`}>
+                    <Image src={shieldBackpack}/>
+                </div>
+            </ParallaxLayer>
             <ParallaxLayer offset={3} speed={1}>
                 <div className={styles.card}>
                     <SourcesGroup/>
                 </div>
             </ParallaxLayer>
-
         </Parallax>
     );
 }
