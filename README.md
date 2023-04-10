@@ -21,3 +21,6 @@ Die Gruppenarbeit verlief gut und wir konnten die Arbeit gut aufteilen zwischen 
 Unterwegs hatten wir teilweise grössere Schwierigkeiten mit Intellij, da unser Projekt nicht richtig lief. Dies hat uns sehr verlangsamt.
 Jedoch konnten wir trotzdem noch aufholen und sind sehr zufrieden mit unserem Endergebnis.
 Wir schätzen unsere Note auf eine 5.25
+
+## Achtung!
+Die Page ist nur auf 1920x1080 Monitore ausgerichtet und wird nicht dynamisch verändert.
