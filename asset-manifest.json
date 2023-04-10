@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/svg-website/static/css/main.7472d520.css",
-    "main.js": "/svg-website/static/js/main.2adcb2d8.js",
+    "main.js": "/svg-website/static/js/main.66ed8bab.js",
     "static/js/787.5428cce3.chunk.js": "/svg-website/static/js/787.5428cce3.chunk.js",
     "static/media/backpack.png": "/svg-website/static/media/backpack.0bd2eca0d3d9914d9f27.png",
     "static/media/hiker-walk-svgrepo-com.svg": "/svg-website/static/media/hiker-walk-svgrepo-com.54143a496b1ee913ef2ab7076a7a803b.svg",
@@ -12,11 +12,11 @@
     "static/media/shieldbackpack.svg": "/svg-website/static/media/shieldbackpack.1df312a9a967817e5d5615bbcd8d769d.svg",
     "index.html": "/svg-website/index.html",
     "main.7472d520.css.map": "/svg-website/static/css/main.7472d520.css.map",
-    "main.2adcb2d8.js.map": "/svg-website/static/js/main.2adcb2d8.js.map",
+    "main.66ed8bab.js.map": "/svg-website/static/js/main.66ed8bab.js.map",
     "787.5428cce3.chunk.js.map": "/svg-website/static/js/787.5428cce3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7472d520.css",
-    "static/js/main.2adcb2d8.js"
+    "static/js/main.66ed8bab.js"
   ]
 }
