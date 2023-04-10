@@ -20,7 +20,7 @@ function App() {
     const alignCenter = {display: 'flex', alignItems: 'center'}
 
     return (
-        <Parallax pages={4}>
+        <Parallax pages={5}>
 
             <ParallaxLayer offset={0} speed={1}>
                 <div>
@@ -76,12 +76,12 @@ function App() {
                     <BackpackQuote quote={"My backpack with a built-in alarm system thwarted a theft attempt, and the police were there in no time. I highly recommend it for anyone on the go!"} name={"John"}/>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer sticky={{start: 2.5, end: 2.9}} style={{...alignCenter, justifyContent: 'flex-start'}}>
+            <ParallaxLayer sticky={{start: 2.5, end: 2.7}} style={{...alignCenter, justifyContent: 'flex-start'}}>
                 <div className={`${styles.card} ${styles.sticky}`}>
                     <Image src={shieldBackpack}/>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={3} speed={1}>
+            <ParallaxLayer offset={3.8} speed={1}>
                 <div className={styles.card}>
                     <SourcesGroup/>
                 </div>
